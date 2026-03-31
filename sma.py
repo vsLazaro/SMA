@@ -1,7 +1,7 @@
-a = 1664525
-c = 1013904223
-M = 4294967296
-previous = 12345
+a = 123
+c = 571
+M = 59
+previous = 2378917
 
 count = 100000
 tipo_chegada = "chegada"
@@ -10,7 +10,7 @@ tipo_saida = "saida"
 TG = 0
 status_fila = 0
 capacidade_fila = 5
-servidores_fila = 1 //altera aqui o número de servidores
+servidores_fila = 2 #altera aqui o número de servidores
 perdas_fila = 0
 escalonador = []
 tempos_acumulados = [0.0] * (capacidade_fila + 1)
